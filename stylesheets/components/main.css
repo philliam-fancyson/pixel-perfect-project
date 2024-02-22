@@ -1,0 +1,40 @@
+.main-container {
+    display:grid;
+    margin-top:40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-areas:
+    "main_article main_article main_image main_image"
+    "bottom_news bottom_news bottom_news bottom_news";
+}
+.main_article {
+    grid-area: main_article;
+    height: 380px;
+    width: 450px;
+    border: 1px solid black;
+}
+.main_image {
+    grid-area: main_image;
+    height: 380px;
+    width: 650px;
+    border: 1px solid black;
+}
+
+.botttom_news {
+    grid-area: bottom_news;
+}
+.main_article h2 {
+    font-size: 36px;
+    margin-top:25px;
+}
+.main_article p {
+    font-size: 16px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+.author {
+padding-top: 30px;
+margin-top: 30px;
+font-size: 12px;
+}
