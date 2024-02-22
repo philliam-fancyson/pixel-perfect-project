@@ -1,0 +1,48 @@
+:root {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.nav-top {
+    display: flex;
+    border: solid 1px black;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 0);
+}
+
+.search_bar {
+    background-color: white;
+    position: relative;
+    resize: none;
+    padding: 7px 10px;
+    margin: 7px 10px;
+}
+
+#search_bar{
+    resize: none;
+
+}
+
+#search_button {
+    position: absolute;
+}
+
+.nav-bottom {
+    border: solid 1px black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-transform: uppercase;
+
+}
+
+.links {
+    margin: 10px 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-right: solid 2px black;
+}
+
+.icons {
+    margin: 10px 10px;
+    padding-right: 10px;
+}
